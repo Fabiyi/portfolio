@@ -1,0 +1,161 @@
+*,*::before,*::after{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+body ul{
+    border-radius: 40px;
+
+    
+}
+h1,h2 {
+    background-color: black;
+    color: white;
+  }
+  
+div {
+    background-color: blue;
+    color: white;
+  }
+.nav ul{
+    font-size: 20px;
+    font-style: italic;
+    background-color: blueviolet;
+    text-align: center;
+    margin: 0 80px;
+}
+    
+.nav li{
+    display: inline-block;
+}
+.nav a{
+    text-decoration: none;
+    color: cadetblue;
+    width: 100px;
+    display: block;
+    padding: 10px 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+.nav a:hover{
+    background: rgb(253, 252, 253);
+
+}
+
+.fatherC{
+    display: flex;
+    gap: 70px;
+    margin: 40px 0px ;
+    padding:20px;
+    flex-direction: row;
+    background-color: #a3ffd6;
+    justify-content: center;
+}
+.father{
+    width: 500px;
+    height: 200px;
+    border-radius: 30px;
+}
+.son1{
+    background-color: #8576ff;
+}
+.son2{
+    background-color: #7bc9ff;
+}
+
+.footer{
+    background-color: rgb(228, 157, 184);
+    color: #fff;
+    text-align: center;
+    width: 700px;
+    margin: 200px;
+}
+.footer p{
+    margin-top: 10px;
+}
+.footer nav ul{
+    list-style-type: none;
+
+}
+.footer nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+.footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.fatherd{
+    gap: 100px;
+    margin: 5px 20px ;
+    padding:20px;
+    background-color: rgb(19, 147, 206);
+}
+.fatherd p{
+    text-align: center;
+}
+.motherc{
+    display: flex;
+    gap: 50px;
+    padding: 100px;
+}
+.mother{
+    width: 600px;
+    height: 600px;
+}
+.sona{
+    background-color: #008dda;
+}
+.sonb{
+    background-color: #41c9f2;
+}
+.daughterc{
+    display: flex;
+    gap: 40px;
+    padding: 40px; 
+    justify-content: center;
+}
+.daughter{
+    width: 400px;
+    height: 400px;  
+}
+.sonaa{
+    background-color: #7695ff; ;
+}
+.sonab{
+    background-color: #9dbdff;
+}
+.philp-c{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    }
+.philipm{
+    width: 400px;
+    height: 200px;
+}
+.philiA{
+    background-color: #ffd7c4;
+}
+.philiB{
+    background-color: #ff9874;
+}
+.daughter >img{
+    width: 250px;
+    height: 400px;
+}
+.mother >img{
+    width: 450px;
+    height: 600px;
+}
+.father >img{
+    width: 400px;
+    height: 200px;
+}
