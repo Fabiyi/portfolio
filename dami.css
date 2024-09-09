@@ -270,6 +270,16 @@
      grid-gap: 40px;
      padding-left: 1.8%;
  }
+
+ .iconctn{
+    width: 100px;
+    z-index: 10;
+    border: 2px solid black;
+ }
+
+ .iconi{
+    width: 100%;
+ }
  .work{
      position: relative;
      overflow: hidden;
