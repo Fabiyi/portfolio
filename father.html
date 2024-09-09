@@ -8,36 +8,74 @@
 </head>
 <body>
     <section>
-        <nav>
-            <div class="nav">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
-                   <li><a href="father.html">FATHER</a></li>
-                    <li><a href="mother.html">MOTHER</a></li>
-                    <li><a href="phebe.html">PHEBE</a></li>
-                    <li><a href="philip.html">PHILIP</a></li>
+                    <li><a href="father.html">ABOUT</a></li>
+                    <li><a href="phebe.html">PORTFOLIO</a></li>
+                    <li><a href="philip.html">HIRE ME</a></li>
                 </ul>
-                </ul>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </section>
- <div class="motherc">
-    <div class="mother son1"> <h1>I am <span>Oluwadamilola Fabiyi </span></h1>
-        <p> I am aiming to broading my knowlegde on web design. I am very grateful for this opportunity.
-        we started with Frontend. 
-        What is rendering?
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-row1">
+                    <img src="image/father.jpg" >
+                </div>
+                <div class="about-row2"> 
+                    <h1 class="sub-row2">About Me</h1>
+                    <p>Integrity is rule of the game.It is the pride of a living soul.</p>
+                     <div class="tab-row2">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span> <br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span> <br>Designing Web/App interfaces</li>
+                            <li><span>App Development</span> <br>Web app Development</li>
+                        </ul>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2024 - current</span> <br>Frontend Designing Web/App at Univelcity, Lagos State.</li>
+                                <li><span>2023 - 2020</span> <br>Hardware Engineer at GleadOnyx, Ikenne, Ogun State.</li>
+                                <li><span>2014 - 2018</span> <br>IT Instructor at DeeperLife High School, Akpabuyo, Calabar.</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2024</span> <br>Frontend Web Development at Univelcity, Lagos.</li>
+                                <li><span>2014</span> <br>B.engr Computer Engineer, College of Enginering and Environmental studies, O.O.U Ago-Iwoye, Ogun State.</li>
+                                <li><span>1999</span> <br>WASSCE at Eyemojo Comprehensive High School, Osan - Ekiti, Ekiti State.</li>
+                            </ul>
+                         </div>
+                     </div> 
+                </div>
+            </div>
+        </div>
+    </div>  
+    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
 
-        Rendering, in web development, is the process of converting code into viewable, interactive web content. This involves interpreting the code written in languages like JSX or Vue.js and displaying it as a webpage that users can interact with. This can be done server-side or user-side.
-        
-        Developers often integrate platforms like Sanity with frontend frameworks that utilize server-side rendering to transform components and structured content into visually engaging websites, thereby enhancing the user experience and site performance.
-        
-        When leveraging server-side rendering, components are converted into HTML strings on the server before sending them to the browser. This approach, combined with the structured content from Sanity, improves time-to-content performance and search engine optimization (SEO), ensuring that the websites are not only visually appealing but also performant and discoverable.
-        
-       .</p></div>
-    <div class="mother son2"><img src="image/father.jpg" alt=""></div>
- </div>
-    <footer>
-        <div class="footer"><p>&copy; 2024 MY PORTFOLIO. All rights reserved.</p></div>
-    </footer>
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>   
 </body>
 </html>

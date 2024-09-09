@@ -1,3 +1,27 @@
-@media screen and (max-width:768px){
-
+@media screen and (max-width:780px){
+    
+    
+    
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 20px ;
+        
+    }
+    
+    .abour-row1{
+        flex-basis: 35%;
+    }
+    .abour-row2{
+        flex-basis: 50%;
+    }
+    .tab-row2{
+        margin-right: 10px; 
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+        display: flex;
+        gap: 50px;
+        position: relative;
+     }
 }
