@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FATHER</title>
-    <link rel="stylesheet" href="dami.css">
+    <title>About</title>
+    <link rel="stylesheet" href="./mediaquery.css">
+    <link rel="stylesheet" href="./dami.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <section>
@@ -13,9 +16,9 @@
                 <img src="image/logo.png" class="logo">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
-                    <li><a href="father.html">ABOUT</a></li>
-                    <li><a href="phebe.html">PORTFOLIO</a></li>
-                    <li><a href="philip.html">HIRE ME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="Portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="Services.html">HIRE ME</a></li>
                 </ul>
             </nav>
         </div>
@@ -24,22 +27,24 @@
         <div class="container">
             <div class="row">
                 <div class="about-row1">
+                    <div class="imgctn">
                     <img src="image/father.jpg" >
+                    </div>
                 </div>
                 <div class="about-row2"> 
                     <h1 class="sub-row2">About Me</h1>
                     <p>Integrity is rule of the game.It is the pride of a living soul.</p>
-                     <div class="tab-row2">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                     </div>
-                     <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>UI/UX</span> <br>Designing Web/App interfaces</li>
-                            <li><span>Web Development</span> <br>Designing Web/App interfaces</li>
-                            <li><span>App Development</span> <br>Web app Development</li>
-                        </ul>
+                    <div class="tab-row2">
+                        <p class="tab-links active-link">Skills</p>
+                        <p class="tab-links">Experience</p>
+                        <p class="tab-links">Education</p>
+                    </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span> <br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span> <br>Designing Web/App interfaces</li>
+                                <li><span>App Development</span> <br>Web app Development</li>
+                            </ul>
                         <div class="tab-contents" id="experience">
                             <ul>
                                 <li><span>2024 - current</span> <br>Frontend Designing Web/App at Univelcity, Lagos State.</li>
@@ -53,13 +58,18 @@
                                 <li><span>2014</span> <br>B.engr Computer Engineer, College of Enginering and Environmental studies, O.O.U Ago-Iwoye, Ogun State.</li>
                                 <li><span>1999</span> <br>WASSCE at Eyemojo Comprehensive High School, Osan - Ekiti, Ekiti State.</li>
                             </ul>
-                         </div>
-                     </div> 
+                            </div>
+                        </div> 
                 </div>
             </div>
         </div>
     </div>  
-    
+
+    <script src="script.js"></script>
+
+    <div class="copyright">
+        <p>Copyright  &copy; 2024 MY PORTFOLIO. All rights reserved. <i class="fas-fa-heart"></i></p>
+    </div>
     
 </body>
 </html>
