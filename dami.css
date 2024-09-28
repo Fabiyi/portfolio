@@ -227,7 +227,7 @@
  .services-list div{
      background: #262622;
      height: 400px;
-     padding: 90px;
+     padding: 40px;
      text-align: center;
      font-size: 20px;
      font-weight: 800;
@@ -236,7 +236,7 @@
  }
  .services-list div i{
      font-size: 50px;
-     margin-bottom: 70px;
+     margin-bottom: 50px;
  }
  .services-list div h2{
      font-size: 30px;
