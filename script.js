@@ -1,7 +1,10 @@
 
 
 
-
+function showSkills(){
+    const 
+    document.getElementById('')
+}
 
 document.querySelectorAll('.tab-contents').forEach(tab-contents => 
     tab-contents.addEventListener('click',() => {
